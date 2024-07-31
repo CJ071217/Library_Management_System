@@ -32,7 +32,7 @@ def main():
         print(book)
 
     # List borrowed books
-    prints("Borrowed books:")
+    print("Borrowed books:")
     for book in library.list_borrowed_books():
         print(book)
 
